@@ -1,0 +1,27 @@
+{
+  "name": "firstproject",
+  "version": "0.0.1",
+  "description": "this is my first project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucianoideh1/nodejsproject.git"
+  },
+  "keywords": [
+    "nodejs",
+    "first",
+    "project"
+  ],
+  "author": "lucianoideh1",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
